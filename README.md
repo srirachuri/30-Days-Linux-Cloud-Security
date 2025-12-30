@@ -1,4 +1,4 @@
-30-Days-Linux-Cloud-Security
+## 30-Days-Linux-Cloud-Security
 ## About
 This repository contains my 30 days of hands-on Linux practice
 focused on cloud and security fundamentals.
