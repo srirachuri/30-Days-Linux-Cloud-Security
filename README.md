@@ -13,7 +13,7 @@ focused on cloud and security fundamentals.
 
 ## Structure
 Day01_Basics  
-Day02_File_Management
+Day02_File_Management 
 Day03_File_Viewing_&_Reading_Logs
 
 ## Goal
