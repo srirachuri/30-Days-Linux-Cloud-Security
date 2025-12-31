@@ -1,29 +1,24 @@
-# Day 6 – Linux Review & Mini Challenge
 
-## Goal
-Revise Linux Days 1–5 by practicing basic file and directory operations.
+# Day 6: Review & Mini Project 🔁
 
-## Commands Practiced
-- mkdir
-- cd
-- touch
-- echo
-- cp
-- mv
-- rm
-- tree / find
+## 🎯 Goal
+Consolidate knowledge from Days 1-5 by completing a hands-on project that combines file creation, movement, and deletion.
 
-## Mini Challenge Summary
-- Created a project folder
-- Created multiple files
-- Added content to files
-- Copied a file to a backup directory
-- Moved a file to another directory
-- Deleted a file
-- Verified the directory structure
-- Added a success confirmation file
+## 🛠️ Project Scenario
+**Task:** Manage a set of "alpha", "beta", and "gamma" files.
 
-## Result
-Successfully completed Linux Day 6 hands-on practice.
+**Steps Taken:**
+1. Created `project6` folder.
+2. Created 3 files: `alpha.txt`, `beta.txt`, `gamma.txt`.
+3. Created `backup` and `moved` folders.
+4. Copied `alpha.txt` to backup.
+5. Moved `beta.txt` to the `moved` folder.
+6. Deleted `gamma.txt`.
+7. Verified the final clean structure using `tree`.
 
-Status: ✅ Completed
+## 🛡️ Cloud Security Add-on
+I also practiced backing up log files:
+* Copied `/var/log/syslog` to a local `logs_backup` folder.
+* Used `grep` to scan the backup for "error" messages.
+
+---
