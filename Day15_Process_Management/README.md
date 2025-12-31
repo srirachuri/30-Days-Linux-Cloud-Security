@@ -1,32 +1,21 @@
-#### 📝 Day 15: Process Management
-**File Path:** `Day-15-Process-Management/README.md`
-
-```markdown
-# Day 15: Linux Processes ⚙️
+# Day 15: Linux Process Management ⚙️
 
 ## 🎯 Goal
-Understand how to view, monitor, and kill system processes.
+Learn to monitor, manage, and kill system processes using `ps`, `top`, and `kill`.
 
-### 🧩 Commands Learned
+## 🧩 Commands Learned
 | Command | Purpose | Example |
 | :--- | :--- | :--- |
-| `ps aux` | List Processes | `ps aux \| grep python` |
-| `top` / `htop` | Real-time Monitor | `htop` |
-| `kill` | Stop Process (PID) | `kill 1234` |
-| `killall` | Stop Process (Name)| `killall firefox` |
-| `bg` / `fg` | Background/Foreground | `Ctrl+Z` then `bg` |
+| `ps aux` | List Processes | Snapshot of all processes |
+| `top` / `htop` | Real-time Monitor | Task manager view |
+| `kill` | Terminate | `kill -9 <PID>` |
+| `bg` / `fg` | Background/Foreground | Manage job control |
 
 ## 🛠️ Practice Session
-I started a long-running process (`sleep 1000`), sent it to the background using `&`, and then killed it using its PID.
-
-
-## 🏆 Mini Project 15: The "Unresponsive App" Simulation
-**Scenario:** Finding a resource-heavy process and terminating it safely.
-
-**Steps Taken:**
-1. Simulated a high-load process.
-2. Used `top` to identify the Process ID (PID).
-3. Used `kill -9 <PID>` to force stop the process.
-4. Verified system resources returned to normal.
+I started a long-running process (`sleep 1000`) and practiced:
+1. Sending it to the background (`bg`).
+2. Bringing it to the foreground (`fg`).
+3. Identifying its PID using `ps`.
+4. Terminating it using `kill`.
 
 ---
