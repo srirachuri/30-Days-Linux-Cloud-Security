@@ -16,9 +16,3 @@ Consolidate knowledge from Days 1-5 by completing a hands-on project that combin
 6. Deleted `gamma.txt`.
 7. Verified the final clean structure using `tree`.
 
-## 🛡️ Cloud Security Add-on
-I also practiced backing up log files:
-* Copied `/var/log/syslog` to a local `logs_backup` folder.
-* Used `grep` to scan the backup for "error" messages.
-
----
