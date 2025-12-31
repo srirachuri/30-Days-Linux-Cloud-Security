@@ -1,18 +1,23 @@
-# Day 7 – Linux Week 1 Summary & Quiz
+# Day 7: Week 1 Summary 🧠
 
-## Goal
-Revise all Linux concepts learned in Week 1 and prepare for Week 2 (Users & Permissions).
+## 🎯 Goal
+Reflect on the first week of Linux training and document the top 10 most used commands.
 
-## What I Did
-- Listed and revised important Linux commands
-- Reflected on my Week 1 learning experience
-- Confirmed readiness to move into user and permission management
+## 📝 Learning Reflection
+This week covered the foundation of Linux: navigating the shell, managing files, and inspecting system logs. These are the daily tasks of a Cloud Engineer.
 
-## Key Topics Revised
-- Navigation commands
-- File and directory management
-- Viewing and searching files
-- Terminal confidence
-
+## 🏆 Top 10 Commands Quiz
+I created a file `my_linux_quiz.txt` listing the most critical commands:
+1. `pwd`
+2. `ls`
+3. `cd`
+4. `mkdir`
+5. `rm`
+6. `cp`
+7. `mv`
+8. `cat`
+9. `grep`
+10. `sudo`
+---
 ## Status
 ✅ Completed Linux Week 1 successfully
