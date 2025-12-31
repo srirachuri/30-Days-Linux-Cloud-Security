@@ -27,6 +27,5 @@ I practiced creating a folder structure, navigating into it, and checking permis
 2. Created nested folders `test1` and `test2`.
 3. Navigated between folders using `cd` and `cd ..`.
 4. Cleaned up by deleting the practice folder with `rm -r`.
-
 **Project Evidence:**
 ![Day 1 Project](../screenshots/day01_project.jpg)
