@@ -1,9 +1,32 @@
-# Day 01 – Linux Basics
+# Day 1: Linux Navigation & Directory Basics 📂
 
-## Commands practiced
-- pwd
-- ls
-- cd
+## 🎯 Goal
+Learn the fundamental commands to navigate the Linux filesystem, creating folders, and managing file structures.
 
-## What I learned
-Basic navigation and understanding Linux directory structure.
+## 🧩 Commands Learned
+| Command | Purpose | Example |
+| :--- | :--- | :--- |
+| `pwd` | Print Working Directory | Shows where you are |
+| `ls` | List | Lists files and folders |
+| `mkdir` | Make Directory | `mkdir practice` |
+| `cd` | Change Directory | `cd practice` |
+| `touch` | Create File | `touch hello.txt` |
+| `clear` | Clear Screen | Cleans the terminal |
+
+## 🛠️ Practice Session
+I practiced creating a folder structure, navigating into it, and checking permissions.
+
+**Screenshot of Practice:**
+![Day 1 Practice](../screenshots/day01_practice.jpg)
+
+## 🏆 Mini Project 1
+**Challenge:** Create a folder structure with sub-directories and verify it using basic navigation.
+
+**Steps Taken:**
+1. Created `mypractice` folder.
+2. Created nested folders `test1` and `test2`.
+3. Navigated between folders using `cd` and `cd ..`.
+4. Cleaned up by deleting the practice folder with `rm -r`.
+
+**Project Evidence:**
+![Day 1 Project](../screenshots/day01_project.jpg)
