@@ -40,7 +40,6 @@ sudo grep "Failed password" /var/log/auth.log | wc -l
 ✅ Displays total failed attempts.
 🔹 4. Identify Attacking IP Addresses
 sudo grep "Failed password" /var/log/auth.log | awk '{print $(NF-3)}' | sort | uniq -c | sort -nr | head
-
 Explanation:
 awk '{print $(NF-3)}' → extracts IP address
 uniq -c → counts attempts per IP
@@ -50,28 +49,19 @@ Sample Output:
 15 192.168.1.55
 8  102.43.78.10
 3  45.76.21.90
-
 🔹 5. Search for Successful SSH Logins
 sudo grep "Accepted password" /var/log/auth.log
-
 Unknown IPs or users may indicate unauthorized access.
-
 6. Identify Targeted Usernames
 sudo grep "Failed password" /var/log/auth.log | awk '{print $(NF-5)}' | sort | uniq -c | sort -nr
-
-
 Reveals commonly targeted usernames such as:
 root
 admin
 user
-
 7. Save Audit Findings
 mkdir ssh_audit
 cd ssh_audit
-
 sudo grep "Failed password" /var/log/auth.log > failed_logins.txt
 sudo grep "Accepted password" /var/log/auth.log > successful_logins.txt
-
 8. Confirmation Message
-echo "Cloud Security Audit - SSH Log Analysis Completed Successfully" > success_day5_cloud.txt
-cat success_day5_cloud.txt
+echo "Cloud Security Audit - SSH Log Analysis Completed Successfully" > success_day5_cloud.txt && cat success_day5_cloud.txt
