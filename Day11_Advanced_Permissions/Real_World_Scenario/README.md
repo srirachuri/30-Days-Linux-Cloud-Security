@@ -52,21 +52,13 @@ Verify:
 grep teamsec /etc/group
 Step 3: Create the Shared Folder
 sudo mkdir -p /srv/team_logs
-
 📌 Why /srv?
-
 Used for service and shared application data on real servers
-
 Common paths:
-
 /srv/projects
-
 /srv/reports
-
 /srv/shared
-
 -p ensures parent directories are created if they do not exist.
-
 🔹 Step 4: Change Group Ownership
 sudo chgrp teamsec /srv/team_logs
 Now the folder belongs to the security team.
